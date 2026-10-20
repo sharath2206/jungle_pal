@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Jungle Pals - Kids Early Learning App",
+    "slug": "jungle-pals-early-learning",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/lion_cub.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8F6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logo.png",
+        "backgroundColor": "#10B981"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/logo.png"
+    }
+  }
+}

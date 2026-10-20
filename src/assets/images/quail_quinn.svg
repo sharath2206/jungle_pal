@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="qBgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="35%" stop-color="#FDE68A" />
+      <stop offset="70%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <linearGradient id="quailBodyGrad" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#A16207" />
+      <stop offset="50%" stop-color="#78350F" />
+      <stop offset="100%" stop-color="#451A03" />
+    </linearGradient>
+    <linearGradient id="quailChestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="60%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <radialGradient id="meadowSun" cx="25%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#FEF08A" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </radialGradient>
+    <filter id="qShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#451A03" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Golden Meadow Sky Background -->
+  <rect width="800" height="480" fill="url(#qBgGrad)" />
+  <circle cx="200" cy="90" r="140" fill="url(#meadowSun)" />
+
+  <!-- Background Forest & Ferns -->
+  <g opacity="0.45">
+    <circle cx="80" cy="300" r="160" fill="#047857" />
+    <circle cx="720" cy="280" r="180" fill="#065F46" />
+    <circle cx="600" cy="320" r="130" fill="#047857" />
+  </g>
+
+  <!-- Rolling Fern Meadows -->
+  <ellipse cx="400" cy="490" rx="460" ry="130" fill="#15803D" />
+  <ellipse cx="200" cy="480" rx="320" ry="90" fill="#16A34A" opacity="0.8" />
+  <ellipse cx="620" cy="485" rx="300" ry="85" fill="#15803D" opacity="0.9" />
+
+  <!-- Fern Fronds & Berries -->
+  <path d="M 120 450 C 130 380 170 330 220 310 C 180 340 150 400 145 450 Z" fill="#22C55E" />
+  <path d="M 680 450 C 670 380 630 330 580 310 C 620 340 650 400 655 450 Z" fill="#22C55E" />
+  <!-- Red Berries -->
+  <circle cx="150" cy="380" r="7" fill="#EF4444" /><circle cx="165" cy="370" r="6" fill="#DC2626" />
+  <circle cx="140" cy="365" r="5" fill="#EF4444" /><circle cx="640" cy="375" r="7" fill="#EF4444" />
+  <circle cx="655" cy="365" r="6" fill="#DC2626" />
+
+  <!-- QUAIL CHARACTER -->
+  <g filter="url(#qShadow)" transform="translate(400, 275)">
+    <!-- Quail Ground Shadow -->
+    <ellipse cx="0" cy="140" rx="100" ry="22" fill="#451A03" opacity="0.35" />
+
+    <!-- Quail Tiny Feet -->
+    <g stroke="#D97706" stroke-width="4.5" stroke-linecap="round">
+      <line x1="-30" y1="110" x2="-35" y2="135" />
+      <line x1="-35" y1="135" x2="-45" y2="138" />
+      <line x1="-35" y1="135" x2="-30" y2="140" />
+      <line x1="-35" y1="135" x2="-22" y2="138" />
+
+      <line x1="25" y1="110" x2="30" y2="135" />
+      <line x1="30" y1="135" x2="20" y2="138" />
+      <line x1="30" y1="135" x2="35" y2="140" />
+      <line x1="30" y1="135" x2="43" y2="138" />
+    </g>
+
+    <!-- Quail Tail -->
+    <path d="M -90 65 C -130 50 -140 20 -150 10 C -130 35 -110 65 -75 75 Z" fill="#451A03" />
+    <path d="M -85 75 C -120 70 -135 45 -140 35 C -125 55 -105 75 -75 80 Z" fill="#78350F" />
+
+    <!-- Quail Round Plump Body -->
+    <ellipse cx="-5" cy="55" rx="90" ry="75" fill="url(#quailBodyGrad)" />
+
+    <!-- Quail Speckled Chest / Bib -->
+    <path d="M 20 20 C 65 30 75 75 60 105 C 35 125 -10 120 -40 95 C -15 65 5 35 20 20 Z" fill="url(#quailChestGrad)" />
+    <!-- Chest Speckles -->
+    <g fill="#78350F" opacity="0.65">
+      <ellipse cx="25" cy="50" rx="4" ry="2.5" /><ellipse cx="40" cy="60" rx="4" ry="3" />
+      <ellipse cx="15" cy="70" rx="3.5" ry="2.5" /><ellipse cx="32" cy="80" rx="4.5" ry="3" />
+      <ellipse cx="48" cy="85" rx="3.5" ry="2.5" /><ellipse cx="10" cy="90" rx="4" ry="2.5" />
+      <ellipse cx="26" cy="100" rx="3" ry="2" />
+    </g>
+
+    <!-- Quail Wing -->
+    <ellipse cx="-35" cy="55" rx="50" ry="36" transform="rotate(-15 -35 55)" fill="#92400E" />
+    <path d="M -60 40 C -85 60 -75 80 -45 85 C -25 80 -40 50 -60 40 Z" fill="#78350F" opacity="0.7" />
+    <path d="M -30 50 C -50 70 -40 85 -20 85" stroke="#FDE68A" stroke-width="2.5" fill="none" opacity="0.8" />
+
+    <!-- Quail Round Head -->
+    <circle cx="35" cy="-20" r="54" fill="url(#quailBodyGrad)" />
+
+    <!-- White Head Markings -->
+    <path d="M 10 -25 C 25 -45 55 -50 75 -35 C 60 -35 35 -30 10 -25 Z" fill="#FFFFFF" opacity="0.9" />
+    <path d="M 30 -5 C 50 -10 75 0 85 10 C 65 15 45 10 30 -5 Z" fill="#FFFFFF" opacity="0.9" />
+
+    <!-- Bouncing Feather Plume (Quail Crest) -->
+    <path d="M 45 -65 C 55 -95 85 -115 105 -105 C 115 -100 110 -85 95 -80 C 75 -75 55 -60 45 -65 Z" fill="#1C1917" />
+    <circle cx="102" cy="-98" r="14" fill="#1C1917" />
+
+    <!-- Big Sparkling Eye -->
+    <circle cx="52" cy="-22" r="13" fill="#0F172A" />
+    <circle cx="56" cy="-26" r="4.5" fill="#FFFFFF" />
+    <circle cx="48" cy="-18" r="2.5" fill="#FFFFFF" />
+
+    <!-- Cute Beak -->
+    <path d="M 78 -22 L 104 -16 L 78 -8 Z" fill="#F59E0B" />
+    <path d="M 78 -16 L 98 -16" stroke="#B45309" stroke-width="2" />
+
+    <!-- Rosy Cheek -->
+    <ellipse cx="45" cy="-4" rx="10" ry="6" fill="#FDA4AF" opacity="0.6" />
+  </g>
+</svg>

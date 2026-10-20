@@ -1,0 +1,95 @@
+# =========================================================================
+# Jungle Pals - Git Ignore Rules
+# =========================================================================
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production & Build Outputs
+dist/
+dist-ssr/
+build/
+out/
+bin/
+gen/
+
+# Standalone Packages & Binaries
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.class
+JunglePals.apk
+
+# Android / Gradle Build Artifacts
+.gradle/
+**/build/
+**/intermediates/
+**/generated/
+**/outputs/
+**/tmp/
+local.properties
+captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Capacitor Generated Web Assets & Configs
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/capacitor-cordova-android-plugins/
+
+# Keystores & Signing Keys
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & IDE Files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Scratch & Diagnostic Files
+rendered_dom.html
+stitch_reference/
+coverage/
+.nyc_output/
+*.tmp
+*.temp
